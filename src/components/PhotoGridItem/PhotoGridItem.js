@@ -22,7 +22,7 @@ const PhotoGridItem = ({ id, src, alt, tags }) => {
           `}
             type="image/jpg"
           />
-          <Image src={src} alt="" />
+          <Image src={src} alt={alt} />
         </Picture>
       </Anchor>
       <Tags>

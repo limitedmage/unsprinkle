@@ -21,9 +21,9 @@ const Hero = () => {
           "
           type="image/jpeg"
         />
-        <img src="/images/hero-img.jpg" alt="" />
+        <img src="/images/hero-img.jpg" alt="A cute cat" />
       </HeroImage>
-      <Swoop src="/swoop.svg" />
+      <Swoop src="/swoop.svg" alt="" />
     </Wrapper>
   );
 };
